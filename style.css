@@ -28,8 +28,12 @@
     text-align: center;
     color:rgb(42, 119, 60);
 }
+.intro-text {
+  height: 100vw;
+  position: relative;
+}
 
-.intro-text{
+.intro-text p {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -37,6 +41,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
 
 
 @media (min-width: 768px){
