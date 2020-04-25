@@ -18,8 +18,8 @@
 
 
 .section{
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 .headings{
@@ -52,11 +52,6 @@ body{
 }
 
 /* _________________________________Resume__________________________________________ */
-
-.cathégorie {
-width: 100%;
-height: 800px; /* A changer selon la hauteur que tu souhaite */
-}
 
 
 .dark-theme{
