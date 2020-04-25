@@ -14,7 +14,9 @@
     <!-- Photoswipe -->
     <link rel='stylesheet' href='photoswipe.css'>
     <link rel='stylesheet' href='default-skin.css'>
-<style>    .my-gallery {
+
+<style>
+    .my-gallery {
       width: 100%;
       float: left;
     }
@@ -33,13 +35,7 @@
     }
 
     </style>
-<style>
-    .cathégorie {
-    width: 100vw;
-    height: 100vw;
-    top: 0; bottom: 0;
-    }
-</style>
+
 
   <style>  a#cRetour{
       border-radius:3px;
@@ -74,30 +70,12 @@
     }
 
     </style>
-  <style>  #particles-js{
-      position:absolute;
-      width: 100%;
-      height: 100%;
-      background-color: #4b4b4c;
-      background-image: url("");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 50% 50%;
-    }
-</style>
 
 
-  <style>.opacity1 div img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.opacity1 div:hover img {
-	opacity: .5;
-}
-</style>
+
+
     <!-- Navbar -->
-    <body data-spy="scroll" data-target="#navbar-menu" data-offset="50">
+  <body data-spy="scroll" data-target="#navbar-menu" data-offset="50">
     <nav  id="navbar-menu" class="navbar fixed-top navbar-expand-lg navbar-dark" >
         <a class="navbar-brand" href="#">Bosquetteur</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -127,7 +105,7 @@
         </div>
       </nav>
 
-      <div id="Home" class="banner-area cathégorie">
+      <div id="Home" class="banner-area">
           <div class="intro-text container">
 
               <h1 class="banner-area-headline">Bosquetteur</h1>
@@ -135,115 +113,117 @@
           </div>
       </div>
 
-    <div id="Galery" class="dark-theme container-fluid section cathégorie">
-    <div class="row intro-text">
-<div id="menu" oncontextmenu="return false">
-    <div class="my-gallery opacity1" itemscope itemtype="http://schema.org/ImageGallery">
+    <div id="Galery" class="dark-theme container-fluid section">
+      <div class="row content-box" id="Home" >
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://live.staticflickr.com/65535/39137209301_79f6990a0b_o.jpg" itemprop="contentUrl" data-size="1539x1024">
-          <img src="https://live.staticflickr.com/65535/39137209301_190a0b77c9.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-                                          <figcaption itemprop="caption description">Image caption  1</figcaption>
+        <div id="menu" oncontextmenu="return false">
 
-    </figure>
+          <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
-          <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" class="opacity1" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 2</figcaption>
-    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="https://live.staticflickr.com/65535/39137209301_79f6990a0b_o.jpg" itemprop="contentUrl" data-size="1539x1024">
+                <img src="https://live.staticflickr.com/65535/39137209301_190a0b77c9.jpg" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Image caption  1</figcaption>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-          <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" class="opacity1" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 3</figcaption>
-    </figure>
+            </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-          <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" class="opacity1" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 4</figcaption>
-    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
+                <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description"  />
+              </a>
+              <figcaption itemprop="caption description">Image caption 2</figcaption>
+            </figure>
 
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
+                <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description"  />
+              </a>
+              <figcaption itemprop="caption description">Image caption 3</figcaption>
+            </figure>
 
-  </div>
-
-<h2>Second gallery:</h2>
-
-  <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
+                <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description"  />
+              </a>
+              <figcaption itemprop="caption description">Image caption 4</figcaption>
+            </figure>
 
 
+          </div>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
-          <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 2.1</figcaption>
-    </figure>
+          <h2>Second gallery:</h2>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-          <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 2.2</figcaption>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-          <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 2.3</figcaption>
-    </figure>
-
-
-  </div>
+          <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
 
 
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
+                <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+            </figure>
 
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
+                <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Image caption 2.2</figcaption>
+            </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
+                <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Image caption 2.3</figcaption>
+            </figure>
 
 
-    <div class="pswp__bg"></div>
+          </div>
 
 
-    <div class="pswp__scroll-wrap">
 
 
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
+          <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
 
-        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__bg"></div>
+
+
+            <div class="pswp__scroll-wrap">
+
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+              </div>
+
+
+            <div class="pswp__ui pswp__ui--hidden">
 
             <div class="pswp__top-bar">
 
 
 
-                <div class="pswp__counter"></div>
+                  <div class="pswp__counter"></div>
 
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
 
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
+                  <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
                       </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
 
             <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                 <div class="pswp__share-tooltip"></div>
@@ -263,26 +243,20 @@
 
         </div>
 
-</div>
-</div>
-</div>
+      </div>
+    </div>
 
-<div id="AboutMe" class="container-fluid section cathégorie" >
-<div class="row intro-text"  >
-<a> BLABLABLA
-BLALLAAALALAL
-ANABABAJAJAJAJA
-AJAJAJAJAAJAJAJAJAAJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ</a>
-  </div>
-</div>
-</div>
+    <div id="AboutMe" class="dark-theme container-fluid section">
+      <div class="row intro-text"  >
+        <a> BLABLABLABLALLAAALALALANABABAJAJAJAJAAJAJAJAJAAJAJAJAJAAJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ</a>
+      </div>
+    </div>
 
-<div id="Contact" class="container-fluid section cathégorie">
-<div class="row intro-text"  >
-
+    <div id="Contact" class="container-fluid section">
+      <div class="row content-box" id="one" >
                           <div class="col-lg-12 ">
-                              <h1 class=" headings">Contact</h1>
-                              <form id="contact-form" method="post" action="https://formspree.io/dark.tux.95@gmail.com"
+                              <h1 class=" headings">Contact Me</h1>
+                              <form id="contact-form" method="post" action="https://formspree.io/abhikulshrestha22@gmail.com"
                               method="POST" role="form">
                                 <div class="messages">
 
@@ -324,7 +298,7 @@ AJAJAJAJAAJAJAJAJAAJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ</a>
                                       <div class="col-md-12">
                                           <div class="form-group">
                                               <label for="form_message">Message *</label>
-                                              <textarea id="form_message" name="message" class="form-control" placeholder="Message for Bosquetteur *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                              <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
                                               <div class="help-block with-errors"></div>
                                           </div>
                                       </div>
@@ -338,9 +312,7 @@ AJAJAJAJAAJAJAJAJAAJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ</a>
                           </div>
                       </div>
                     </div>
-</div>
-</div>
-</div>
+
 
 <div><a id="cRetour" class="cInvisible" href="#Home"></a></div>
 
