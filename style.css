@@ -19,11 +19,17 @@
 .container {
 	min-height: 100vh;
 	overflow: hidden;
+  }
+  .scroll1 {
+  scroll-snap-type: y proximity;
+  /* Reserve space for header plus some extra space for sneak peeking. */
+  scroll-padding-top: 15vh;
+  overflow-y: scroll;
 }
 
-
-.mandatory-scroll-snapping {
-  scroll-snap-type: y mandatory;
+.start-scroll1 {
+  /* Snap align start. */
+  scroll-snap-align: start;
 }
 
 
