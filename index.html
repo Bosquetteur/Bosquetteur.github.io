@@ -71,10 +71,23 @@
       }
 
     </style>
+<style>
+    .scroll-container,
+    .scroll-area {
+      min-width: 100vw;
+      height: 100vh;
+    }
 
+    .scroll-container {
+      overflow: auto;
+      scroll-snap-type: y proximity;
+    }
 
-  
+    .scroll-area {
+      scroll-snap-align: start;
+    }
 
+</style>
 
   </head>
 
@@ -388,13 +401,13 @@
           </div>
         </div>
 
-        <div id="AboutMe" class="random1-theme container-fluid section scroll-area">
+        <div id="AboutMe" class="dark-theme container-fluid section scroll-area">
           <div class="row content-box " id="Home" >
             <h2> BLABLABLABLALLAAALALALANABABAJAJAJAJAAJAJAJAJAAJAJAJAJAAJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ</h2>
           </div>
         </div>
 
-        <div id="Contact" class="container-fluid section scroll-area">
+        <div id="Contact" class="dark-theme container-fluid section scroll-area">
           <div class="row content-box" id="Home" >
                             <div class="col-lg-12 ">
                                 <h1 class=" headings">Contact Me</h1>
