@@ -16,27 +16,17 @@
 
 }
 
-.container {
+/*.container {
 	min-height: 100vh;
 	overflow: hidden;
   }
-  .scroll1 {
-  scroll-snap-type: y proximity;
-  /* Reserve space for header plus some extra space for sneak peeking. */
-  scroll-padding-top: 15vh;
-  overflow-y: scroll;
-}
 
-.start-scroll1 {
-  /* Snap align start. */
-  scroll-snap-align: start;
-}
 
 
 .container-fluid {
 	min-height: 100vh;
 	overflow: hidden;
-}
+} */
 
 .section{
     padding-top: 120px;
