@@ -22,6 +22,11 @@
 }
 
 
+.mandatory-scroll-snapping {
+  scroll-snap-type: y mandatory;
+}
+
+
 .container-fluid {
 	min-height: 100vh;
 	overflow: hidden;
