@@ -46,7 +46,7 @@
     }
 
     .scroll-container {
-      overflow: auto;
+      overflow: hidden;
       scroll-snap-type: y proximity;
     }
 
@@ -71,7 +71,7 @@
 <body>
 
 <div class="scroll-container">
-  <div id="Home" class="dark-theme scroll-area">
+  <div class="dark-theme scroll-area">
     <h2> BLABLABLABLALLAAALALALANABABAJAJAJAJAAJAJAJAJAAJAJAJAJAAJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ</h2>
   </div>
   <div class="random1-theme scroll-area">
@@ -84,6 +84,13 @@
     <h2> BLABLABLABLALLAAALALALANABABAJAJAJAJAAJAJAJAJAAJAJAJAJAAJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ</h2>
   </div>
 </div>
-<div><a id="cRetour" class="cInvisible" href="#Home"></a></div>
+<div><a id="cRetour" class="cInvisible" href="#"></a></div>
 </body>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  window.onscroll = function(ev) {
+    document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
+  };
+});
+</script>
 </html>
