@@ -46,12 +46,17 @@
     }
 
     .scroll-container {
-      overflow: hidden;
+      overflow: auto;
       scroll-snap-type: y proximity;
     }
 
     .scroll-area {
       scroll-snap-align: start;
+    }
+
+    .scroll-container,
+    .scroll-area {
+      margin: 0 auto;
     }
 
 </style>
@@ -84,8 +89,13 @@
     <h2> BLABLABLABLALLAAALALALANABABAJAJAJAJAAJAJAJAJAAJAJAJAJAAJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ</h2>
   </div>
 </div>
+
 <div><a id="cRetour" class="cInvisible" href="#"></a></div>
+
+
 </body>
+
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   window.onscroll = function(ev) {
