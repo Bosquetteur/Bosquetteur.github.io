@@ -24,10 +24,11 @@
     background: #ff00a2;
     }
 
-.banner-area{
-    background: url("./images/c.jpg") no-repeat top center fixed;
-    background-size: cover;
 
+
+.banner-area{
+    background: url("https://live.staticflickr.com/1929/31484513368_43029f48f0_k.jpg") no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
     vertical-align: center;
     color: white;
