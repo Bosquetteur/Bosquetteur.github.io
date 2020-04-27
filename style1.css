@@ -13,7 +13,7 @@
 .lrr {
   scroll-snap-align: start end;
   text-align: center;
-  font-size: 50px;
+  font-size: 100px;
   overflow-wrap: anywhere;
   max-width: 100vw;
   min-height: 100vh;
