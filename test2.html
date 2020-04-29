@@ -18,7 +18,7 @@
   display: block;
   float: left;
   margin: 0 5px 5px 0;
-  width: 150px;
+  width: 600px;
 }
 .my-gallery figcaption {
   display: none;
@@ -33,7 +33,7 @@
           <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" alt="Image description" />
       </a>
                                           <figcaption itemprop="caption description">Image caption  1</figcaption>
-                                          
+
     </figure>
 
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -64,7 +64,7 @@
 
   <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-  
+
 
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
       <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
@@ -95,25 +95,25 @@
 
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    
+
     <div class="pswp__bg"></div>
 
-    
+
     <div class="pswp__scroll-wrap">
 
-        
+
         <div class="pswp__container">
             <div class="pswp__item"></div>
             <div class="pswp__item"></div>
             <div class="pswp__item"></div>
         </div>
 
-        
+
         <div class="pswp__ui pswp__ui--hidden">
 
             <div class="pswp__top-bar">
 
-                
+
 
                 <div class="pswp__counter"></div>
 
@@ -125,7 +125,7 @@
 
                 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-                
+
                 <div class="pswp__preloader">
                     <div class="pswp__preloader__icn">
                       <div class="pswp__preloader__cut">
@@ -136,7 +136,7 @@
             </div>
 
             <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
+                <div class="pswp__share-tooltip"></div>
             </div>
 
             <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
@@ -158,7 +158,7 @@
 <script>
  var initPhotoSwipeFromDOM = function(gallerySelector) {
 
-    // parse slide data (url, title, size ...) from DOM elements 
+    // parse slide data (url, title, size ...) from DOM elements
     // (children of gallerySelector)
     var parseThumbnailElements = function(el) {
         var thumbElements = el.childNodes,
@@ -173,7 +173,7 @@
 
             figureEl = thumbElements[i]; // <figure> element
 
-            // include only element nodes 
+            // include only element nodes
             if(figureEl.nodeType !== 1) {
                 continue;
             }
@@ -193,13 +193,13 @@
 
             if(figureEl.children.length > 1) {
                 // <figcaption> content
-                item.title = figureEl.children[1].innerHTML; 
+                item.title = figureEl.children[1].innerHTML;
             }
 
             if(linkEl.children.length > 0) {
                 // <img> thumbnail element, retrieving thumbnail url
                 item.msrc = linkEl.children[0].getAttribute('src');
-            } 
+            }
 
             item.el = figureEl; // save link to element for getThumbBoundsFn
             items.push(item);
@@ -238,8 +238,8 @@
             index;
 
         for (var i = 0; i < numChildNodes; i++) {
-            if(childNodes[i].nodeType !== 1) { 
-                continue; 
+            if(childNodes[i].nodeType !== 1) {
+                continue;
             }
 
             if(childNodes[i] === clickedListItem) {
@@ -272,10 +272,10 @@
             if(!vars[i]) {
                 continue;
             }
-            var pair = vars[i].split('=');  
+            var pair = vars[i].split('=');
             if(pair.length < 2) {
                 continue;
-            }           
+            }
             params[pair[0]] = pair[1];
         }
 
@@ -304,7 +304,7 @@
                 // See Options -> getThumbBoundsFn section of documentation for more info
                 var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
                     pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                    rect = thumbnail.getBoundingClientRect(); 
+                    rect = thumbnail.getBoundingClientRect();
 
                 return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
             }
@@ -314,7 +314,7 @@
         // PhotoSwipe opened from URL
         if(fromURL) {
             if(options.galleryPIDs) {
-                // parse real index when custom PIDs are used 
+                // parse real index when custom PIDs are used
                 // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
                 for(var j = 0; j < items.length; j++) {
                     if(items[j].pid == index) {
