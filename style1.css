@@ -21,8 +21,7 @@
 
 .dark-theme{
     color: white;
-    background: #4b4b4c;
-}
+  }
 
 .random1-theme{
     color: white;
@@ -38,6 +37,12 @@
     vertical-align: center;
     color: white;
   }
+
+
+  .panel{font-family:'Source Sans Pro';font-size:1.3em;position:absolute;z-index:10; top:50%;left:50%;margin:-110px 0 0 -100px;}
+  .loaded .panel li{-webkit-transition:background 0.2s ease,color 0.2s ease;transition:background 0.2s ease,color 0.2s ease}
+  .loaded .panel li a{-webkit-transition:color 0.2s ease;transition:color 0.2s ease}
+
 
 
   .my-gallery {
@@ -58,4 +63,4 @@
     display: none;
   }
 
-  #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #11ffee00; }
+  #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #4b4b4c; }

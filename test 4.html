@@ -3,13 +3,17 @@
   <head>
     <title>Bosquetteur</title>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style1.css">
     <link rel="icon" type="image/png" href="/images/IcoFav.png" />
     <!-- Photoswipe -->
     <link rel='stylesheet' href='photoswipe.css'>
     <link rel='stylesheet' href='default-skin.css'>
-
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -18,7 +22,9 @@
         <div id="Home" class="lrr banner-area">
           <a>Bosquetteur <br />Wildlife photography</a>
         </div>
-        <div id="Galery" class="lrr dark-theme">
+        <div>
+        <div id="particles-js"></div>
+        <div id="Galery" class="lrr dark-theme panel">
           <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -279,14 +285,15 @@
 
           </div>
         </div>
-        <div id="About" class="lrr dark-theme">
+        <div id="About" class="lrr dark-theme panel">
           <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
         </div>
-        <div id="Contact" class="lrr dark-theme">
+        <div id="Contact" class="lrr dark-theme panel">
           <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
+        </div>
         </div>
       </div>
-    </body>
+  </body>
   <script src="script1.js"></script>
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src='photoswipe.min.js'></script>
